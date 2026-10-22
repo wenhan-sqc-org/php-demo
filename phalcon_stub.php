@@ -7,7 +7,7 @@
 namespace Phalcon\Di;
 class Di
 {
-    public function get(string $name, $parameters = null): \Phalcon\Db\Adapter\Pdo\Mysql
+    public function get(): \Phalcon\Db\Adapter\Pdo\Mysql
     {
         return new \Phalcon\Db\Adapter\Pdo\Mysql();
     }
